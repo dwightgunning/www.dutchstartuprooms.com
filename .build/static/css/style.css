@@ -1,0 +1,247 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  color: #404040;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #7F7F7F;
+}
+
+/* Headers
+-------------------------------------------------- */
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #404040;
+}
+
+@media(max-width:767px){
+  h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.container .text-muted {
+  margin: 20px 0;
+  color: #FFFFFF;
+}
+
+/* Sections
+-------------------------------------------------- */
+
+
+section.headline .container {
+  width: auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+section.headline {
+    height: 600px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    background-image: url('../img/BlackCouch.jpg');
+    position: relative;
+}
+
+.page-header {
+  margin-top: 80px;
+  border: none;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  line-height: 62px;
+  color: #404040;
+}
+
+@media(max-width:767px){
+  .page-header h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+.lead {
+     text-align: center;
+}
+
+section.mailing-list-registration {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #BFBFBF;
+}
+
+section.mailing-list-registration .container {
+  width: auto;
+}
+
+.mailing-list-registration .lead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #404040;
+}
+
+.mailing-list-registration .form-control {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #9D676D;
+}
+
+.btn-primary {
+  color: #FFFFFF !important;
+  padding: 7px 30px;
+  margin-left: 10px;
+  background-color: #404040;
+  border-color: #404040;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #FFFFFF;
+  background-color: #7F7F7F;
+  border-color: #7F7F7F;
+}
+
+section.value-proposition {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: url('../img/fabric_plaid.png') repeat;
+}
+
+.uvp-icon {
+  font-size: 96px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #BFBFBF;
+}
+
+.uvp-icon:hover {
+  font-size: 116px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.value-proposition .caption {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #9D4850;
+}
+
+section.map-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    height: 500px;
+}
+
+#map-canvas {
+  width:100%;
+  height: 100%;
+}
+
+.google-map-canvas {
+  height: 100%;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 250px;
+    }
+
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+}
+
+section.about-us {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fff; 
+}
+
+.avatars {
+    margin-top: 25px;
+}
+
+.profile {
+    display: block;
+    padding: 12px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.profile>img, .profile a>img {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile>img, .profile a>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profile .caption {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profile a, a:focus, a:hover, a:visited {
+  font-size: 14px;
+  line-height: 18px;
+  color: #512D31;
+  text-decoration: none;
+}
+
+.about-us .contacts a,
+.about-us .contacts a:active,
+.about-us .contacts a:focus,
+.about-us .contacts a:visited {
+    color: #512D31;
+    font-weight: 400;
+}
